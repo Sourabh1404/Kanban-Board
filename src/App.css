@@ -1,0 +1,123 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Grid layout */
+/* App.css */
+
+/* Body and heading styles remain unchanged */
+
+/* Adjust the grid layout */
+.grid-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-align content horizontally */
+}
+
+.grid-column {
+  flex: 1;
+  margin: 0 10px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  width: 30vw;
+}
+
+h2 {
+  text-align: center; /* Center-align headings */
+  
+}
+
+.priority-columns {
+  display: flex;
+  gap: 10px; /* Adjust the gap between columns */
+  
+}
+
+.priority-column {
+  flex: 1;
+}
+.priority-colu{
+  padding: 10px;
+}
+
+.user-columns {
+  display: flex;
+  gap: 20px; /* Adjust the gap between columns */
+}
+
+.user-column {
+  flex: 1;
+}
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+/* Dropdown toggle button */
+.dropdown-toggle {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  color: black;
+  
+}
+
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 10px 8px 16px 0px rgba(0,0,0,0.2);
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 5px;
+  z-index: 1;
+  padding: 10px;
+  color: black;
+}
+
+/* Show dropdown content on click */
+ .dropdown-content {
+  display: block;
+  
+}
+
+/* Submenu items */
+.submenu {
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.submenu span {
+  margin-right: 8px;
+  padding-right: 170px;
+  
+}
+
+/* Dropdown options */
+/* Style your Dropdown component here */
+
+/* Styling for the arrow */
+
